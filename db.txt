@@ -1,0 +1,9 @@
+CREATE DATABASE users;
+
+CREATE TABLE myuser(user_id int,user_name varchar(20),email varchar(20));
+
+INSERT INTO myuser(1,'John','john1@gmail.com');
+INSERT INTO myuser VALUES (1,'John','john1@gmail.com');
+INSERT INTO myuser VALUES (2,'simp','simp2@gmail.com');
+INSERT INTO myuser VALUES (3,'maggie','maggie3@gmail.com');
+INSERT INTO myuser VALUES (4,'mycat','mycat@gmail.com');
